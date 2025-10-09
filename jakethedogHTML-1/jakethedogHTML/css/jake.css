@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Roboto+Slab:wght@100..900&family=Rock+3D&display=swap');
+
+
+/* Header-Background/Fonts/Header Image */
+
+header img {
+    border-radius: 40%;
+    border: 20px #2e95da;
+
+}
+
+header {
+    background-color: rgba(172, 85, 27, 0.452);
+    text-align: center;
+    padding: 20px;
+    color: antiquewhite;
+
+}
+
+
+
+/* Fonts/Font Size/Style */
+header h3,h1 {
+
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    color: aliceblue;
+
+}
+
+h2 {
+    padding-bottom: 20px;
+    font-family: "Barrio", system-ui;
+    
+font-weight: bold;
+}
+
+/* BACKGROUND PICTURE AND FONT */
+body {
+
+    margin: 0;
+    padding: 0;
+
+    background-image: url(https://images8.alphacoders.com/442/thumb-1920-442432.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+    /* *****IMAGE BACKGROUND***** */
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    
+}
+
+/* *********IMAGES******** */
+
+img {
+    box-sizing: border-box;
+    border: 15px groove #37a7c9;
+
+}
+
+
+/* BACKGROUND COLOUR/SPACING/BORDER */
+
+section {
+
+    background-color: rgba(240, 248, 255, 0.562);
+
+    color: rgb(13, 41, 32);
+
+    text-align: center;
+
+    max-width: 960px;
+    /*margin centering*/
+    margin: auto;
+
+    /*this is space inside the section*/
+    padding: 40px;
+    /*section expands to big enough for all the content*/
+    overflow: hidden;
+
+    /*push the following section down by 30px*/
+    margin-bottom: 30px;
+    /* ********DROP SHADOW STUFF******* */
+    -webkit-box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 4px -4px 15px 0px #FF1F1F, 12px -11px 7px 0px #FF9376, 20px -5px 7px 0px #FFE264, 20px 6px 7px 0px #F6FF33, 13px 12px 17px 0px #FF9527, 2px 17px 17px 0px #FF0000, -9px 21px 18px 0px #FFF212, -9px 6px 11px 0px #FF0808, -11px -9px 11px 0px #FFFA17, -11px -9px 11px 0px #FFFA17, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+
+}
+
+/* FIRST PARAGRAPH */
+.firstp {
+    /* box-sizing: border-box; */
+    float: left;
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+
+
+
+/* NAVIGATION BAR */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 90, 114);
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #4a7ddb;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+
+/* *********LISTS********* */
+
+
+li {
+    text-align: left;
+
+}
+
+
+/* Divided section for burrito */
+
+.container {
+
+    display: flex;
+    row-gap: 50px;
+
+}
+
+/* Reference Div section */
+.container2 {
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+/***********************links*********************/
+/* unvisited link */
+a:link {
+    color: rgb(29, 105, 80);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(191, 100, 199);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(145, 105, 255);
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: rgb(229, 248, 55);
+}
