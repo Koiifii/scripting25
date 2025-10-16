@@ -1,0 +1,27 @@
+header, #about{
+    background-color: #a185ce;
+
+}
+
+footer{
+background-color: #333132;
+background-image: url(../bsImages/backgrounds/scallopWhite.png);
+background-repeat: repeat-x;
+
+
+
+}
+body{
+background-image: url(../bsImages/backgrounds/mountains.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+background-position: center;
+
+
+}
+#about{
+background-image:url(../bsImages/backgrounds/Abstract-blue_0.jpg) ;
+background-repeat:no-repeat;
+background-size:cover;
+background-position: center;
+}
