@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Quicksand:wght@300..700&family=Staatliches&family=Stack+Sans+Headline:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap');
+
+
+
+header {
+    background-image: url(../images/mountaintops.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline-style: solid;
+    outline-width: 17px;
+    outline-color: rgb(60, 115, 98);
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+ background-color: rgb(53, 80, 112);
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130%;
+    color: rgb(174, 196, 179);
+    
+}
+
+h2, h3{
+    color: rgb(255, 255, 255);
+}
+
+
